@@ -1,0 +1,5 @@
+使用马尔科夫随机场对DecisionTreeRegressor、RandomForestRegressor、XGBRegressor构成的stacking模型进行调参优化
+
+调参的模型也要使用test数据生成对应版本的，方便对比
+
+调参后训练保存最优的模型吃，并输出参数，使用模型将test文件夹下的数据进行预测。
